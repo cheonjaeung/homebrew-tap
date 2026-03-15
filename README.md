@@ -1,18 +1,29 @@
-# Cheonjaeung Tap
+# Homebrew Tap for Cheon Jaeung's Tools
 
-## How do I install these formulae?
+## Setup
 
-`brew install cheonjaeung/tap/<formula>`
+You can add my tap to your system using:
 
-Or `brew tap cheonjaeung/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "cheonjaeung/tap"
-brew "<formula>"
+```shell
+brew tap cheonjaeung/tap
 ```
 
-## Documentation
+And install a package that you want:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```shell
+brew install cheonjaeung/tap/<name>
+```
+
+## Available Packages
+
+### Waste
+
+A simple command line tool to move files and directories to the trash.
+
+Home Page: https://github.com/cheonjaeung/waste
+
+```shell
+brew install waste
+# or
+brew install cheonjaeung/tap/waste
+```
