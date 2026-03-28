@@ -1,8 +1,8 @@
 class FzfAndroid < Formula
   desc "Bash and Zsh key bindings for Android SDK CLI tools"
   homepage "https://github.com/cheonjaeung/fzf-android"
-  url "https://github.com/cheonjaeung/fzf-android/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f004a7b8e9459429882437e3f8a059d520e8df16562b876deabb35b1a4574355"
+  url "https://github.com/cheonjaeung/fzf-android/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "15ca3800ce4b551c58246cf69396ea706312bdc243fb117a351d7f0bae4de718"
   license "Apache-2.0"
 
   depends_on "fzf"
