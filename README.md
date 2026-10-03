@@ -16,18 +16,6 @@ brew install cheonjaeung/tap/<name>
 
 ## Available Packages
 
-### waste
-
-A simple command line tool to move files and directories to the trash.
-
-**Homepage:** [https://github.com/cheonjaeung/waste](https://github.com/cheonjaeung/waste)
-
-```shell
-brew install waste
-# or
-brew install cheonjaeung/tap/waste
-```
-
 ### fzf-android
 
 Bash and Zsh key bindings for Android SDK CLI tools, inspired by fzf-git.
